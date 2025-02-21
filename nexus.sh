@@ -22,7 +22,7 @@ echo -e "\e[1;32m
 
 
 echo -e "${INFO}sudo apt update & sudo apt upgrade -y${NC}"
-sudo apt update & sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y  
 
 echo -e "${INFO}sudo apt install screen curl libssl-dev pkg-config build-essential git-all protobuf-compiler -y${NC}"
 sudo apt install screen curl libssl-dev pkg-config build-essential git-all protobuf-compiler -y
